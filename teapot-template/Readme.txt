@@ -11,10 +11,10 @@ My Process 1.1:
 
 2. Browse to new directory and link to global packages (prevents downloading between teapots)
 
-npm link browser-sync; npm link del; npm link gulp; npm link gulp-debug; npm link gulp-inject; npm link gulp-rimraf; npm link gulp-sourcemaps; npm link gulp-tslint; npm link gulp-typescript; npm link-superstatic;
+sudo npm link browser-sync; sudo npm link del; sudo npm link gulp; sudo npm link gulp-debug; sudo npm link gulp-inject; sudo npm link gulp-rimraf; sudo npm link gulp-sourcemaps; sudo npm link gulp-tslint; sudo npm link gulp-typescript; sudo npm link superstatic;
 
 to remove links:
-npm unlink browser-sync; npm unlink del; npm unlink gulp; npm unlink gulp-debug; npm unlink gulp-inject; npm unlink gulp-rimraf; npm unlink gulp-sourcemaps; npm unlink gulp-tslint; npm unlink gulp-typescript; npm unlink-superstatic;
+npm unlink browser-sync; sudo npm unlink del; sudo npm unlink gulp; sudo npm unlink gulp-debug; sudo npm unlink gulp-inject; sudo npm unlink gulp-rimraf; sudo npm unlink gulp-sourcemaps; sudo npm unlink gulp-tslint; sudo npm unlink gulp-typescript; sudo npm unlink superstatic;
 
 3. Add src/app/app.ts and code by hand the basic angular example module class definition.
 3a. Also need to create views (except for About/Contact) under src/views/app
